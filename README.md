@@ -1,30 +1,50 @@
-# React + TypeScript + Vite
+# React Modal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About the project
 
-Currently, two official plugins are available:
+A simple React based Modal using the HTML [Dialog](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog) element
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Built with
 
-## Expanding the ESLint configuration
+- [![React][react.dev]][react-url]
+- [![Tailwindcss][tailwindcss]][tailwindcss-url]
+- [![Typescript][typescript]][typescript-url]
+- [![HTML][html-5]][html-url]
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Getting Started
 
-- Configure the top-level `parserOptions` property like this:
+To get a local copy up and running follow these simple example steps.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### Yarn
+
+```sh
+    npm install --global yarn
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Installation
+
+1. Clone the repository
+   ```sh
+   git clone https://github.com/thaboRach/react-modal.git
+   ```
+2. Install the required packages
+   ```sh
+   yarn
+   ```
+
+## Usage
+
+Start the web application locally:
+
+```sh
+yarn dev
+```
+
+[react.dev]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAF
+[react-url]: https://react.dev/
+[tailwindcss]: https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
+[tailwindcss-url]: https://tailwindcss.com/
+[typescript]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
+[typescript-url]: https://www.typescriptlang.org/
+[html-5]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[html-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
